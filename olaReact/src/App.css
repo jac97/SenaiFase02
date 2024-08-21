@@ -2,12 +2,13 @@
   font-size: 30px;
   font-weight: bolder;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: darkcyan;
+  color: white;
+  background-color: darkgreen;
 }
 
 .paragrafos{
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
-  background-color: darkgrey;
+  /* margin-bottom: 15px; */
 }

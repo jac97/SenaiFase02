@@ -1,0 +1,12 @@
+.ichigo-hollow{
+    width: 400px;
+    height: 200px;
+}
+
+.inchigoHollow-container{
+    background-color: darkred;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: end;
+}

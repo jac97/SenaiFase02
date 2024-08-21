@@ -1,0 +1,12 @@
+.ichigo-bankai{
+    width: 400px;
+    height: 200px;
+}
+
+.ichigoBankai-container{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
