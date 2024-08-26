@@ -1,0 +1,10 @@
+.itens-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+}
+
+.itens{
+    width: 400px;
+    padding: 20px;
+}

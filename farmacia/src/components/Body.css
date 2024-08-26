@@ -1,0 +1,35 @@
+.body-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--cor-2);
+}
+
+.farmarcia{
+    width: 600px;
+}
+
+.botao-itens{
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    border: solid 2px;
+    border-color: white;
+    background-color: var(--cor-4);
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+}
+    .botao-itens:hover{
+        width: 220px;
+        height: 42px;
+        color: var(--cor-4);
+        background-color: var(--cor-2);
+        font-weight: bolder;
+        cursor: pointer;
+        transition: 0.5s;
+        border: solid 3px;
+        border-color: var(--cor-4);
+    }
