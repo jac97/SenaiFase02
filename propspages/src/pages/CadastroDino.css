@@ -1,0 +1,39 @@
+
+.cadastro-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.label-cadastro{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.inpt-cadastro{
+    width: 200px;
+    height: 30px;
+    border: solid 2px;
+    border-radius: 10px;
+    padding-left: 3px;
+    border-top-color: #00ff00;
+    border-left-color: #000;
+    border-right-color: #000;
+    border-bottom-color: #00ff00;
+}
+
+.botao-cadastro{
+    width: 150px;
+    height: 40px;
+    background-color: #00ff00;
+    color: #000;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}

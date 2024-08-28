@@ -1,0 +1,51 @@
+body{
+    background-image: url("./public/dinossauro.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sorteio-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    width: 100%;
+    /* padding: 10px; */
+}
+
+.botao-sorteio{
+    width: 250px;
+    height: 250px;
+    background-image: url("./public/dino.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #00ff00;
+    border: solid 2px;
+    border-radius: 1000px;
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: bold;
+    cursor: pointer;
+}
+    .botao-sorteio:hover{
+        width: 300px;
+        height: 300px;
+        background-color: darkgreen;
+        color: #fff;
+        border: solid 3px;
+        border-radius: 1000px;
+        font-size: 25px;
+        font-family: monospace;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .inpt-sorteio{
+        width: 200px;
+        height: 40px;
+        padding-left: 5px;
+        border-radius: 10px;
+        border: solid 2px;
+        border-color: #00ff00;
+    }
