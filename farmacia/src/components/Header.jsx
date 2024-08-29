@@ -11,7 +11,7 @@ function Header() {
 
         <h1>Bem-vindo/a à</h1>
 
-        <button className="botao-sobre">Sobre</button>
+        <button className="botao-sobre">Cadastrar</button>
 
     </div>
 
