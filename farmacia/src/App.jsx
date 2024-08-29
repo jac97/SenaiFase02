@@ -1,20 +1,14 @@
-
-import './App.css'
-import Body from './components/Body'
-import Header from './components/Header'
-import Itens from './components/Itens'
+import "./App.css";
+import Body from "./components/Body";
+import Header from "./components/Header";
 
 function App() {
-
   return (
     <>
-      
-      <Header/>
-      <Body/>
-      <Itens/>
-      
+      <Header />
+      <Body />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

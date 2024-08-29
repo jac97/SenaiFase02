@@ -3,12 +3,6 @@ import Logo from "./Logo"
 
 function Header() {
 
-    function Sobre(){
-
-        window.location.href = 'perfil.html'
-
-    }
-
     return (
 
     <div className="header-container">
@@ -17,7 +11,7 @@ function Header() {
 
         <h1>Bem-vindo/a à</h1>
 
-        <button className="botao-sobre" onClick={Sobre}>Sobre</button>
+        <button className="botao-sobre">Sobre</button>
 
     </div>
 
