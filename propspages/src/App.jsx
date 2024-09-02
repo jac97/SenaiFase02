@@ -1,6 +1,7 @@
 
 import './App.css'
 import CadastroDino from './pages/CadastroDino'
+import Dado from './pages/Dado'
 import Home from './pages/Home'
 import Sorteio from './pages/Sorteio'
 
@@ -12,7 +13,8 @@ function App() {
 
       {/* <Home/> */}
       {/* <CadastroDino/> */}
-      <Sorteio/>
+      {/* <Sorteio/> */}
+      <Dado/>
 
     </div>
 
