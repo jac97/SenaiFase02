@@ -1,0 +1,40 @@
+.exercicios-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+
+.botoes-exercicios{
+    display: flex;
+    gap: 15px;
+}
+
+.botao{
+    width: 200px;
+    height: 40px;
+    border: solid 2px;
+    border-color: darkgreen;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+    cursor: pointer;
+}
+    .botao:hover{
+        width: 210px;
+        height: 45px;
+        border: solid 2px;
+        border-color: whitesmoke;
+        background-color: darkgreen;
+        color: whitesmoke;
+        border-radius: 17px;
+        font-size: 25px;
+        font-weight: bolder;
+        font-family: monospace;
+        cursor: pointer;
+        margin-top: 5px;
+    }
