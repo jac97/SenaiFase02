@@ -4,7 +4,12 @@ function Media(props) {
   return (
     <div className="media-container">
 
-        <h1>{props.nome} {props.media} {props.imagem}</h1>
+      <div>
+              <h2>Nome: {props.nome}</h2>
+              <p>Média Ponderada:{props.media}</p> 
+              {props.imagem}
+
+      </div>
       
     </div>
   )
