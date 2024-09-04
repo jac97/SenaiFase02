@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    gap: 30px;
+    gap: 150px;
     width: 100%;
 }
 
@@ -38,3 +38,8 @@
         cursor: pointer;
         margin-top: 5px;
     }
+
+.resultado-exercicios{
+    font-size: 40px;
+    font-weight: bolder;
+}
