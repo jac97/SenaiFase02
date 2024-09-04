@@ -1,0 +1,9 @@
+.aprovado-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagem-aprovado{
+    width: 150px;
+    height: 150px;
+}

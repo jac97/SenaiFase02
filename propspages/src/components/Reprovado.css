@@ -1,0 +1,9 @@
+.container-reprovado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagem-reprovado{
+    width: 180px;
+    height: 150px;
+}
