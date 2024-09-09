@@ -1,0 +1,58 @@
+.container-exercicio2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.descricao2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 40px;
+    padding: 15px;
+}
+
+.enunciado2{
+    color: #000;
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.botao-exercicio2{
+    height: 50px;
+    width: 250px;
+    border: solid 3px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: fantasy;
+    cursor: pointer;
+}
+    .botao-exercicio2:hover{
+        color: whitesmoke;
+        height: 60px;
+        width: 270px;
+        border: solid 3px;
+        border-color: white;
+        background-color: rgb(43, 43, 197);
+        font-size: 25px;
+    }
+
+.resultado2{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    height: 180px;
+    width: 530px;
+    color: whitesmoke;
+    background-color: #3232CD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}

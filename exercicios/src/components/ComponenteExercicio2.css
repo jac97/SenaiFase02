@@ -1,0 +1,18 @@
+.container-exer-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: transparent;
+    gap: 20px;
+}
+
+h5{
+    background-color: transparent;
+    color: #fff;
+}
+
+p{
+    background-color: transparent;
+    color: #fff;
+}

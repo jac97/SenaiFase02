@@ -1,0 +1,13 @@
+.container-exer-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: transparent;
+    gap: 20px;
+}
+
+.dados{
+    background-color: transparent;
+    color: #fff;
+}
