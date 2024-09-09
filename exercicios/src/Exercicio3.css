@@ -60,12 +60,22 @@
         align-items: center;
         height: 100%;
         width: 500px;
-        background-color: #3232CD;
+        background-color: #0e7fe9;
         border-radius: 20px;
-        font-size: 30px;
+        font-size: 20px;
         font-weight: bolder;
         font-family: sans-serif;
+        color: #000;
+        cursor: pointer;
     }
+        .dados-entrada:hover{
+            height: 110%;
+            width: 500px;
+            background-color: #2f71c7;
+            color: #fff;
+            transition: 0.5s;
+            cursor: pointer;
+        }
 
     .dados-saida{
         display: flex;
@@ -75,7 +85,17 @@
         width: 500px;
         background-color: darkgrey;
         border-radius: 20px;
-        font-size: 30px;
+        font-size: 20px;
         font-weight: bolder;
         font-family: sans-serif;
+        color: #000;
+        cursor: pointer;
     }
+        .dados-saida:hover{
+            height: 110%;
+            width: 500px;
+            background-color: #2f71c7;
+            color: #fff;
+            transition: 0.5s;
+            cursor: pointer;
+        }

@@ -8,7 +8,7 @@ function Exercicio3() {
     const [dados, setDados] = useState("Aguardando...")
     const [resultado, setResultado] = useState("Aguardando...")
 
-    function Botao3(){
+    function analisarEmprestimo(){
          
         //receber dados do usuário e imprimir no quadro a esquerda
         let salarioDigitado = Number(prompt("Informe o salário: "))
@@ -25,11 +25,12 @@ function Exercicio3() {
         
             //processar os dados recebidos e mostrar no quadro a direita
             let porcentagemSalario = salarioDigitado * 0.30
+            let valorPrestacao = emprestimoDigitado / quantPrestacoes
                 
-            if (emprestimoDigitado > porcentagemSalario){
-                setResultado(<ComponenteExercicio3_1 mensagem={"O empréstimo não pode ser concedido"}/>)
+            if (valorPrestacao > porcentagemSalario){
+                setResultado(<ComponenteExercicio3_1 mensagem={"O empréstimo não pode ser concedido"} valor={valorPrestacao.toFixed(2)} observacao={"O valor da prestação excede os 30% do salário!"}/>)
             }else{
-                setResultado(<ComponenteExercicio3_1 mensagem={"O empréstimo pode ser concedido"}/>)
+                setResultado(<ComponenteExercicio3_1 mensagem={"O empréstimo pode ser concedido"} valor={valorPrestacao.toFixed(2)} observacao={"O valor da prestação não excede os 30% do salário!"}/>) 
             }
 
         }  
@@ -45,7 +46,7 @@ function Exercicio3() {
 
             <p className="enunciado3">Não tem garçom de cara feia: Uma empresa abriu uma linha de crédito para os funcionários. O valor da prestação não pode ultrapassar 30% do salário. Faça um programa que receba o salário, o valor do empréstimo e o número de prestações e informe se o empréstimo pode ser concedido. Nenhum dos valores informados pode ser zero ou negativo</p>
 
-            <button className="botao-exercicio3" onClick={Botao3}>Digitar número</button>
+            <button className="botao-exercicio3" onClick={analisarEmprestimo}>Iniciar análise</button>
 
         </div>
 

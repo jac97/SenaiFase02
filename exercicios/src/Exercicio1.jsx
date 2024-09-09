@@ -5,7 +5,7 @@ import "./Exercicio1.css"
 function Exercicio1() {
     const [numero, setNumero] = useState("Aguardando...")
 
-    function Numero(){
+    function verificarNumero(){
         
         let numero = Number(prompt("Informe o número: "))
 
@@ -26,9 +26,9 @@ function Exercicio1() {
 
         <div className="container-descricao">
 
-            <p>Copo meio cheio - Ler um número e informar se ele é positivo, negativo ou nulo.</p>
+            <p className="enunciado1">Copo meio cheio - Ler um número e informar se ele é positivo, negativo ou nulo.</p>
 
-            <button className="botao-enunciado" onClick={Numero}>Informar número</button>
+            <button className="botao-enunciado" onClick={verificarNumero}>Informar número</button>
 
         </div>
 

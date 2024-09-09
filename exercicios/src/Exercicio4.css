@@ -53,13 +53,23 @@
 .resultado4{
     height: 200px;
     width: 800px;
-    color: whitesmoke;
-    background-color: #3232CD;
+    color: #000;
+    background-color: #0c6cc7;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     border-radius: 20px;
-    font-size: 30px;
+    font-size: 25px;
     font-family: monospace;
     font-weight: bold;
+    cursor: pointer;
 }
+    .resultado4:hover{
+        height: 210px;
+        width: 810px;
+        color: #fff;
+        font-weight: bolder;
+        background-color: #2f71c7;
+        transition: 0.5s;
+        cursor: pointer;
+    }

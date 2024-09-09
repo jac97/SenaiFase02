@@ -6,23 +6,23 @@ import ComponenteExercicio4 from "./components/ComponenteExercicio4"
 function Exercicio4() {
     const [temperatura, setTemperatura] = useState("Aguardando...")
 
-    function Botao4C(){
+    function celsiusFahrenheit(){
     
         let tempCelsius = Number(prompt("Digite a temperetura em Celsius (°C): "))
 
         let tempFahrenheit = (tempCelsius * 9/5) + 32
 
-        setTemperatura(<ComponenteExercicio4 entrada={tempCelsius + "°C (Grau Celsius)"} saida={tempFahrenheit + "°F (Grau Fahrenheit)"}/>)
+        setTemperatura(<ComponenteExercicio4 entrada={tempCelsius + "°C (Grau Celsius)"} saida={tempFahrenheit.toFixed(2) + "°F (Grau Fahrenheit)"}/>)
 
     }
 
-    function Botao4F(){
+    function fahrenheitCelsius(){
         
         let tempeFahrenheit = Number(prompt("Digite a temperatura em Fahrenheit (°F): "))
 
         let tempeCelsius = (tempeFahrenheit - 32) * 5/9
 
-        setTemperatura(<ComponenteExercicio4 entrada={tempeFahrenheit + "°F (Grau Fahrenheit)"} saida={tempeCelsius.toFixed(3) + "°C (Grau Celsius)"}/>)
+        setTemperatura(<ComponenteExercicio4 entrada={tempeFahrenheit + "°F (Grau Fahrenheit)"} saida={tempeCelsius.toFixed(2) + "°C (Grau Celsius)"}/>)
 
     }
 
@@ -39,8 +39,8 @@ function Exercicio4() {
 
         <div className="div-botoes">
 
-            <button className="botao-exercicio4" onClick={Botao4C}>Celsius ➡ Fahrenheit</button>
-            <button className="botao-exercicio4" onClick={Botao4F}>Fahrenheit ➡ Celsius</button>
+            <button className="botao-exercicio4" onClick={celsiusFahrenheit}>Celsius ➡ Fahrenheit</button>
+            <button className="botao-exercicio4" onClick={fahrenheitCelsius}>Fahrenheit ➡ Celsius</button>
 
         </div>
 

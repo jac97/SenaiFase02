@@ -6,7 +6,7 @@ import ComponenteExercicio2 from "./components/ComponenteExercicio2"
 function Exercicio2() {
     const [numeroDigitado, setNumeroDigitado] = useState("Aguardando...")
 
-    function Botao2(){
+    function analisarNumero(){
         
         let numeroDigitado = Number(prompt("Informe o número que deseja verificar: "))
 
@@ -31,7 +31,7 @@ function Exercicio2() {
 
             <p className="enunciado2">Dois copos meio cheios - Faça um programa para ler um número e imprimir uma mensagem dizendo se o mesmo é par e positivo ao mesmo tempo.</p>
 
-            <button className="botao-exercicio2" onClick={Botao2}>Digitar número</button>
+            <button className="botao-exercicio2" onClick={analisarNumero}>Digitar número</button>
 
         </div>
 
