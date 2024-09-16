@@ -1,24 +1,39 @@
 import './App.css'
-import Exercicio1 from './Exercicio1'
-import Exercicio2 from './Exercicio2'
-import Exercicio3 from './Exercicio3'
-import Exercicio4 from './Exercicio4'
-import Exercicio5 from './Exercicio5'
+import { useState } from 'react'
 import Exercicio6 from './Exercicio6'
-
+import TituloPagina from './components/TituloPagina'
 
 function App() {
+  const [pagina, setPagina] = useState()
 
   return (
 
     <div className='container-app'>
 
-      {/* <Exercicio1/> */}
-      {/* <Exercicio2/> */}
-      {/* <Exercicio3/> */}
-      {/* <Exercicio4/> */}
-      {/* <Exercicio5/> */}
-      <Exercicio6/>
+      <TituloPagina/>
+
+      <div className='div-instrucoes'>
+
+        <p className='instrucoes'>Para acessar os exercícios basta clicar no número desejado, abaixo!!!</p>
+
+      </div>
+
+      <nav className='parte-navegacao'>
+
+        <button className='botoes-navegacao' onClick={ () => setPagina()}>1</button>
+        <button className='botoes-navegacao' onClick={ () => setPagina()}>2</button>
+        <button className='botoes-navegacao' onClick={ () => setPagina()}>3</button>
+        <button className='botoes-navegacao' onClick={ () => setPagina()}>4</button>
+        <button className='botoes-navegacao' onClick={ () => setPagina()}>5</button>
+        <button className='botoes-navegacao' onClick={ () => setPagina(<Exercicio6/>)}>6</button>
+        <button className='botoes-navegacao' onClick={ () => setPagina()}>7</button>
+        <button className='botoes-navegacao' onClick={ () => setPagina()}>8</button>
+        <button className='botoes-navegacao' onClick={ () => setPagina()}>9</button>
+        <button className='botoes-navegacao' onClick={ () => setPagina()}>10</button>
+
+      </nav>
+
+      { pagina }
       
     </div>
 

@@ -4,8 +4,7 @@ function Titulo(props) {
   return (
     <div className="container-titulo">
 
-        <h1>{props.texto} {props.emoji}</h1>
-        <p className="texto-enunciado">Lista de Exercícios - Programação de Aplicativos - Prof. Rafael Lindemann Duarte</p>
+        <p className="numero-exercicio">{props.texto} {props.emoji}</p>
       
     </div>
   )

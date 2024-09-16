@@ -1,0 +1,47 @@
+.container-app{
+    gap: 10px;
+}
+.botoes-navegacao{
+    height: 40px;
+    width: 40px;
+    border: solid 1px;
+    border-color: #000;
+    border-radius: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+    .botoes-navegacao:hover{
+        height: 42px;
+        width: 42px;
+        border: solid 1px;
+        color: whitesmoke;
+        border-color: darkcyan;
+        border-radius: 11px;
+        font-size: 20px;
+        font-weight: bolder;
+        cursor: pointer;
+        background-color: darkgreen;
+        transition: 0.5s;
+    }
+
+.parte-navegacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+
+.div-instrucoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.instrucoes{
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    font-family: monospace;
+}
