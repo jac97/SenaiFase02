@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+:root{
+  --corfundo: #fcf6e8;
+  --fundoelementos: #f4e2b4;
+  --laranjaenferrujado: #c85b34;
+  --navbar: #fdfaf3;
+  --textos: #40454b;
+}
