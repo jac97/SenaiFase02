@@ -1,0 +1,159 @@
+body{
+    height: 100%;
+    margin: 0;
+}
+
+html{
+    height: 100%;
+}
+
+.container-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    background-color: #A4EFE0;
+}
+
+.container-cabecalho{
+    display: flex;
+    background-color: transparent;
+    height: 10%;
+    width: 100%;
+    background-color: #EFFFFF;
+}
+    .parte-logo{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding-left: 10px;
+        gap: 10px;
+        height: 100%;
+        width: 50%;
+        background-color: transparent;
+    }
+        .logo{
+            height: 50px;
+            width: 80px;
+        }
+        .texto-logo{
+            font-size: 20px;
+            font-family: monospace;
+            font-weight: bold;
+        }
+    .parte-pesquisa{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        padding-right: 10px;
+        gap: 10px;
+        height: 100%;
+        width: 50%;
+        background-color: transparent;
+    }
+        .icone-pesquisa{
+            height: 35px;
+            width: 35px;
+        }
+        .texto-pesquisa{
+            font-size: 20px;
+            font-family: monospace;
+            font-weight: bold;
+        }
+.navebar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: 5%;
+    width: 100%;
+    background-color: #61D199;
+}
+    .botoes-navegacao{
+        height: 25px;
+        width: 120px;
+        background-color: #EFFFFF;
+        border: solid 1px #61D199;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+        .botoes-navegacao:hover{
+            background-color: #27857d;
+            color: #EFFFFF;
+            border: solid 2px;
+        }
+
+.container-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 75%;
+    width: 100%;
+    background-color: transparent;
+}
+    .titulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 8%;
+        width: 100%;
+        background-color: transparent;
+    }
+        .label-titulo{
+            font-size: 25px;
+            font-style: italic;
+            font-family: monospace;
+        }
+    .conjunto-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 23%;
+        width: 100%;
+        background-color: transparent;
+    }
+        .box{ 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 180px;
+            height: 90px;
+            background-color: #EFFFFF;
+            border-radius: 10px;
+            border: solid 1px #61D199;
+            box-sizing: border-box; 
+            margin: 10px;
+            padding: 10px;
+            cursor: pointer;
+        }
+            .box:hover{
+                background-color: #27857d;
+                color: #EFFFFF;
+                cursor: pointer;
+            }
+        .texto-produto{
+            font-size: 15px;
+            font-weight: bold;
+            font-family: monospace;
+        }
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 10%;
+    width: 100%;
+    background-color: #61D199;
+}
+    .texto-negrito{
+        font-size: 12px;
+        font-weight: bold;
+        font-family: monospace;
+    }
+    .texto-simples{
+        font-size: 12px;
+        font-family: monospace;
+    }
